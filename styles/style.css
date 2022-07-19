@@ -207,3 +207,28 @@ body{
     color: lightslategray;
     margin-top: 6px;
 }
+
+.visit{
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-right: 312px;
+}
+
+.view{
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #E02C6D;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fa-right-long{
+
+    color: #E02C6D;
+    font-size: 23px;
+    margin-top: 0px;
+
+}
