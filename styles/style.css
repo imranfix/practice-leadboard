@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Fasthand&family=Lobster+Two&family=Open+Sans&family=Poppins:wght@500&family=Readex+Pro&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* menu section */
+
+.header-menu{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 65px;
+    
+}
+
+.header-first:first-child{
+
+    margin-right: auto;
+    margin-left: 2em;
+}
+
+.header-first > .caption{
+
+    font-size: 50px;
+    margin-top: -12px;
+    margin-left: 45px;
+}
+
+.menu-list{
+
+    margin-right: 4em;
+}
+
+.list-item a{
+    text-decoration: none;
+    margin-right: 2em;
+    font-size: 20px;
+    color: black;
+}
+
+/* main section */
+.text-about{
+
+    margin-left: 93px;
+    margin-top: 192px;
+    font-size: 30px;
+    font-weight: bold;
+    
+    width: 582px;
+    height: 270px;
+
+}
+
+.button-fix{
+
+    margin-top: 23px;
+}
+.design{
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+
+.text-add{
+
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.text-part{
+
+    display: flex;
+   
+}
+
+.background-img{
+    background-image: url(/images/Circle\ design.svg);
+    margin-top: 50px;
+    margin-left: 400px;
+
+    
+}
+
+
+.circle-image{
+        
+        width: 440px;
+        height: 414px;
+           
+}
+
+/* branding-image */
+
+.gap{
+
+    margin: 65px 300px;
+    color: lightslategray;
+    opacity: 0.2;
+    
+
+}
+
+.image-list{
+
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    margin-top: 40px;
+    /* width: 910px;
+    height: 30px; */
+
+}
+
+
+/* <!---------------------  */
+/* grid leadboard section  */
+/* ----------------------> */
+
+
+.box-shadow{
+    box-shadow: 0px 10px 40px gray;
+    height: 455px;
+    width: 300px;
+    margin-left: 60px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    padding: 18px 18px;
+}
+
+.gap22{
+
+    margin-top: 15px;
+}
+.ratings{
+
+    display: flex;
+    margin-top: 15px;
+}
+
+.fa-star{
+
+    color: orange;
+    font-size: 10px;
+
+}
+
+.fa-star-half-stroke{
+
+    color: orange;
+    font-size: 10px;
+}
+
+.ratings11{
+
+    margin-left: 14px;
+    font-size: 15px;
+}
+
+.facilities{
+
+    font-size: 15px;
+    color: lightslategray;
+    margin-top: 6px;
+}
