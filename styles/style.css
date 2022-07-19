@@ -31,9 +31,10 @@ body{
 
 .header-first > .caption{
 
-    font-size: 50px;
+    font-size: 35px;
     margin-top: -12px;
     margin-left: 45px;
+    color:  #3A3A3A;
 }
 
 .menu-list{
@@ -45,7 +46,7 @@ body{
     text-decoration: none;
     margin-right: 2em;
     font-size: 20px;
-    color: black;
+    color:  #3A3A3A;
 }
 
 /* main section */
@@ -59,6 +60,11 @@ body{
     width: 582px;
     height: 270px;
 
+}
+
+.banner-text{
+
+    color:  #3A3A3A;
 }
 
 .button-fix{
@@ -81,7 +87,8 @@ body{
 
     font-size: 18px;
     margin-top: 10px;
-    color: rgb(0, 0, 0);
+    color: #3A3A3A;
+    opacity: 0.7;
 }
 
 .text-part{
@@ -110,7 +117,7 @@ body{
 
 .gap{
 
-    margin: 65px 300px;
+    margin: 65px 200px;
     color: lightslategray;
     opacity: 0.2;
     
@@ -133,6 +140,26 @@ body{
 /* grid leadboard section  */
 /* ----------------------> */
 
+.first-head{
+
+    text-align: center;
+    font-size: 27px;
+    color: #3A3A3A;
+    font-weight: bold;
+}
+
+.collection-box{
+
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-content: space-evenly;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-right: 70px;
+    padding: 50px 700px
+    
+}
+
 
 .box-shadow{
     box-shadow: 0px 10px 40px gray;
@@ -147,6 +174,7 @@ body{
 .gap22{
 
     margin-top: 15px;
+    color:  #3A3A3A;
 }
 .ratings{
 
